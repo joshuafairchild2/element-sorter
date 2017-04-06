@@ -73,6 +73,9 @@ label#select-label {
 
 .modal-body {
   background-color: #9de0ad;
+  font-family: cinzel;
+  font-weight: bold;
+  text-align: center;
 }
 
 .modal-footer {
