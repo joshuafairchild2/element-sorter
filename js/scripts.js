@@ -210,7 +210,7 @@ var sortAtomicWeight = function(obj) {
 
 // front end logic
 $(function() {
-  var selectedList = sortElementNames(periodicTable);
+  var selectedList = sortAtomicNumbers(periodicTable);
   for (var i = 0; i < selectedList.length; i++) {
     $('td#element' + (i + 1) + '-name').text(selectedList[i][0]);
     $('td#element' + (i + 1) + '-symbol').text(selectedList[i][1].symbol);
@@ -220,7 +220,7 @@ $(function() {
 
   $('#close-modal').click(function() {
     $('#invalid-form').modal('hide');
-  })
+  });
 
   $('form#list-style').submit(function(event) {
     var selection = $('select#select-list-style').val();
@@ -244,7 +244,6 @@ $(function() {
         $('td#element' + (i + 1) + '-weight').text(selectedList[i][1].weight);
       }
     }
-
     event.preventDefault();
   });
 });
