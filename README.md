@@ -14,8 +14,8 @@ This is a webpage that lists all of the elements of the periodic table in varyin
 #### Basic Specifications
 | Behavior | Example Input | Example Output |
 | ------   | ------------- |----------------|
-| Application displays proper list format | * user selects alphabetically by name * | The HTML table within index.html is populated using the alphabetical (by name) list of elements |
-| Invalid selections are not accepted | * user makes no selection before clicking 'Go' button * | A modal window pops up providing an error message |
+| Application displays proper list format | *user selects alphabetically by name* | The HTML table within index.html is populated using the alphabetical (by name) list of elements |
+| Invalid selections are not accepted | *user makes no selection before clicking 'Go' button* | A modal window pops up providing an error message |
 
 ----
 #### Setup/Installation
